@@ -1,5 +1,4 @@
 import React from 'react';
-import { FileText, BarChart2, Users } from 'lucide-react';
 import firstIcon from '../assets/valuesIcons/firstIcon.svg'
 import secondIcon from '../assets/valuesIcons/secondIcon.svg'
 import thirdIcon from '../assets/valuesIcons/thirdIcon.svg'
