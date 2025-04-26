@@ -50,7 +50,7 @@ const StatItem: React.FC<StatItemProps> = ({ value, label, suffix = '', duration
   return (
     <div className="text-center">
       <div className="text-[#69E6A6] text-5xl md:text-6xl font-bold mb-2">
-        {count}{suffix}
+      {count.toLocaleString('de-DE')}{suffix}
       </div>
       <div className="text-white text-sm">{label}</div>
     </div>
@@ -70,7 +70,7 @@ const Stats: React.FC = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <StatItem value={120} suffix="m" label="Cool feature title" />
-          <StatItem value={10.000} label="Cool feature title" />
+          <StatItem value={10000} label="Cool feature title" />
           <StatItem value={240} label="Cool feature title" />
         </div>
       </div>
