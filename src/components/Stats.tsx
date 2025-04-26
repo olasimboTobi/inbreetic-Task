@@ -70,7 +70,7 @@ const Stats: React.FC = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <StatItem value={120} suffix="m" label="Cool feature title" />
-          <StatItem value={10000} label="Cool feature title" />
+          <StatItem value={10.000} label="Cool feature title" />
           <StatItem value={240} label="Cool feature title" />
         </div>
       </div>
